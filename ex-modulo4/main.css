@@ -64,7 +64,7 @@ section h2, .articles article  {
 }
 
 .articles article a {
-  background-color: blue;
+  background-color: rgb(255, 0, 0);
   color: white;
   padding: 8px;
   display: inline-block;
@@ -115,4 +115,9 @@ section h2 {
 
 #tecnologia {
   background-color: rgba(66, 66, 255, 0.393);
+}
+
+#tecnologia .articles article a {
+  background-color: yellow;
+  color:black;
 }
