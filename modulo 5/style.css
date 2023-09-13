@@ -1,2 +1,69 @@
 @charset "UTF-8";
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, section h1, section h3, section p, form button {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: normal;
+}
+
+body, input, textarea {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+  padding: 16px 0;
+}
+
+.logo {
+  max-width: 100%;
+  margin-left: 0 auto;
+  display: block;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.conteiner {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .conteiner, section .conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.de_volta {
+  background-image: url(imagens/background-moon.png);
+  display: flex;
+  justify-content: left;
+  height: 760px;
+  color: white;
+}
+
+.de_volta h1 {
+  margin-top: 180px;
+  font-size: 100px;
+  margin-left: 145px;
+}
+
+.de_volta h3 {
+  margin-left: 145px;
+  margin-top: 50px;
+  font-size: 30px;
+}
