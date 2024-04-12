@@ -75,7 +75,7 @@ main {
 .hero .sobre h2 {
   margin-bottom: 15px;
   font-style: italic;
-  color: black
+  color: black;
 }
 
 .sobre hr {
@@ -134,7 +134,6 @@ main {
   color: #545454;
 }
 
-
 button {
   width: 100%;
   margin-top: 15px;
@@ -164,3 +163,34 @@ footer {
 footer a {
   text-decoration: none;
 }
+
+/*Responsividade - Tablet*/
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .sessao_produtos {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+  }
+
+  .produto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: auto;
+  }
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  footer {
+    max-width: 100%;
+  }
+}
+
