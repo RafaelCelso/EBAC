@@ -167,7 +167,7 @@ footer a {
 /*Responsividade - Tablet*/
 @media screen and (min-width: 641px) and (max-width: 1023px) {
   .container {
-    max-width: 90%;
+    max-width: 85%;
   }
 
   .hero {
@@ -177,6 +177,11 @@ footer a {
     justify-content: center;
     height: 100%;
     overflow: auto;
+  }
+
+  .hero img {
+    width: 100%;
+    margin-top: 50px;
   }
 
   .sessao_produtos {
@@ -208,6 +213,16 @@ footer a {
 @media screen and (max-width: 640px) {
   .container {
     max-width: 90%;
+  }
+
+  header h1 {
+    display: block;
+    width: 120px;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: column;
   }
 
   .hero {
