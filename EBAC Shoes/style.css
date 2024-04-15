@@ -231,7 +231,10 @@ footer a {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    overflow: auto;
+  }
+
+  .hero img {
+    width: 100%;
   }
 
   .sessao_produtos {
