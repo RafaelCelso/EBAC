@@ -170,6 +170,15 @@ footer a {
     max-width: 90%;
   }
 
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: auto;
+  }
+
   .sessao_produtos {
     max-width: 100%;
     grid-template-columns: repeat(2, 50%);
@@ -195,3 +204,47 @@ footer a {
   }
 }
 
+/*Responsividade - Celular*/
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .sessao_produtos {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 100%);
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .produto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .sessao_produtos .produto h1 {
+    padding: 3px;
+  }
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  footer {
+    max-width: 100%;
+  }
+
+}
